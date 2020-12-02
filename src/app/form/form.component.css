@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.body-wrapper {
+  background: rgb(235, 241, 241);
+  display: flex;
+  margin: 0% 4%;
+  padding-left: 15%;
+  box-shadow: 10px 10px rgba(0,0,0,.3)
+}
+
+.signup {
+  text-align: end;
+}
+
+.signup:hover {
+  color: blue;
+  background: none;
+}
+
+.title {
+  align-self: center;
+  /* margin: 0% auto; */
+
+}
+.wrapper {
+  background-color: rgba(225, 226, 216, 0.618);
+  width: 50%;
+  /* margin: 0% auto; */
+  box-shadow: 10px 10px rgba(0,0,0,.3);
+  margin: 10% 0%;
+  border-radius: 0px 50px ;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+.btn:hover, input:hover {
+  box-shadow: 5px 5px rgba(0,0,0,.3);
+  border-radius: 0px 50px ;
+}
