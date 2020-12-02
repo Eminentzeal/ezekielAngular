@@ -8,6 +8,11 @@
   box-shadow: 10px 10px rgba(0,0,0,.3)
 }
 
+h1{
+  font-weight: 900;
+  font-size: 7rem;
+}
+
 .signup {
   text-align: end;
 }
@@ -22,6 +27,11 @@
   /* margin: 0% auto; */
 
 }
+
+.display-4 {
+  font-weight: 700;
+}
+
 .wrapper {
   background-color: rgba(225, 226, 216, 0.618);
   width: 50%;

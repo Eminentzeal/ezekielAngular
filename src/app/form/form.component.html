@@ -8,15 +8,15 @@
     <div class="container">
       <div class="jumbotron wrapper">
         <!-- <a [routerLink]="['/user/jim']">Jim</a> -->
-        <a class="dropdown-item signup" href="#">New around here? Sign up</a>
         <form>
+          <a class="dropdown-item signup" href="#">New around here? Sign up</a>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+            <input maxlength="6" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
           </div>
 
           <div class="form-check">
