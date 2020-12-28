@@ -25,5 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# ezekielAngular
-# ezekielAngular
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5acb7ddd-b3ab-4c2d-9316-39d769a7f8ab/deploy-status)](https://app.netlify.com/sites/ezekiel-angular-form/deploys)
