@@ -10,14 +10,8 @@ export class NavbarComponent implements OnInit {
 
   public isCollapsed = true;
 
-  constructor( private router:Router) { }
-    home(){
-    this.router.navigate(['/home'])
-    }
-    about(){
-      this.router.navigate(['/about'])
-      }
-
+  constructor() { }
+  
   ngOnInit(): void {
   }
 
