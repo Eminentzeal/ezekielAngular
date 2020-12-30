@@ -15,6 +15,7 @@ import { ResponseComponent } from './response/response.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { ContentComponent } from './content/content.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { ContentComponent } from './content/content.component';
     ResponseComponent,
     LoginComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +34,8 @@ import { ContentComponent } from './content/content.component';
     MatToolbarModule,
     FlexLayoutModule,
     MatIconModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
